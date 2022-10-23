@@ -10,7 +10,7 @@ https://user-images.githubusercontent.com/71530559/197377018-50a5ac0e-190a-48f9-
 
 <h1 align="center">
 <!-- <h1> -->
-<a href="https://felipedamazio.github.io/FORMULARIO-DE-LOGIN" target="_blank">Testar</a> 
+<a href="https://felipedamazio.github.io/JogoMario-javaScript/" target="_blank">Testar</a> 
 </h1>
 
 ### 🛠 Tecnologias
