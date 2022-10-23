@@ -1,0 +1,56 @@
+@media screen and (max-width: 1366px) {
+
+
+    .game-board {
+        display: flex;
+        width: 80%;
+        height: 20em;
+        border: 1px solid #3bd723;
+        margin: 4em auto;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .pipe {
+        position: absolute;
+        bottom: 0;
+        width: 54px;
+        animation: pipe-animation 2s infinite linear;
+    }
+
+    .mario {
+        width: 100px;
+        position: absolute;
+        bottom: 0;
+
+    }
+
+    .logoSuperMario {
+        width: 20em;       
+        margin-top: 24px;
+    }
+
+    .cloud {
+        position: absolute;
+        width: 14em;
+        padding: 15px;
+        animation: cloud-animation 10s infinite linear;
+    }
+
+    .instructions {
+        width: 30em;
+        
+    }
+
+    .Felp{
+    
+        width: 10em;
+        margin-left: 9em;
+        margin-top: 4em;
+    }
+    
+    a{
+        height: fit-content;
+        width: 0;
+    }
+}
