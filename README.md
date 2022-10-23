@@ -6,6 +6,7 @@ https://user-images.githubusercontent.com/71530559/197377018-50a5ac0e-190a-48f9-
 
 # Descrição do Projeto
 <p align="center">Jogo do Mario com JavaScript / projeto Baseado em outros projetos Open Source</p>
+<p align="center">PROJETO EM ANDAMENTO - AGUARDANDO MELHORIAS E ATUALIZAÇÕES </p>
 
 
 <h1 align="center">
