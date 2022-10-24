@@ -14,7 +14,7 @@ body{
 .game-board {
     display: flex;
     width: 100%;
-    height: 46em;
+    height: 41em;
     border-bottom: 15px solid #208a10;
     margin: 0em auto;
     position: relative;
