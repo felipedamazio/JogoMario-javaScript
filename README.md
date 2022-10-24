@@ -1,18 +1,17 @@
 # Jogo do Mario com JavaScript
 
 
-
-
-
+https://user-images.githubusercontent.com/71530559/197377018-50a5ac0e-190a-48f9-a745-38ed989779e0.mp4
 
 
 # Descrição do Projeto
 <p align="center">Jogo do Mario com JavaScript / projeto Baseado em outros projetos Open Source</p>
+<p align="center">PROJETO EM ANDAMENTO - AGUARDANDO MELHORIAS E ATUALIZAÇÕES </p>
 
 
 <h1 align="center">
 <!-- <h1> -->
-<a href="https://felipedamazio.github.io/FORMULARIO-DE-LOGIN" target="_blank">Testar</a> 
+<a href="https://felipedamazio.github.io/JogoMario-javaScript/" target="_blank">Testar</a> 
 </h1>
 
 ### 🛠 Tecnologias
@@ -21,13 +20,15 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <br>
  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+   <img align="center" alt="Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+    <img align="center" alt="Felp-Photoshop" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-plain.svg">
 
 
 ### Autor
 ---
 
 <a href="https://www.linkedin.com/in/felipe-damazio/">
- <img width="200" src="https://media-exp1.licdn.com/dms/image/C4D03AQFVFuMXM17RQA/profile-displayphoto-shrink_200_200/0/1661115634710?e=1668643200&amp;v=beta&amp;t=oVGvzVbCU38zyc9EwQQE_8Wgd68dHaekDJmH8KrT5TY" height="200" alt="Felipe Damazio" id="ember5457" class="ember-view profile-photo-edit__preview">
+ <img width="200" border-radius="25px" src="https://media-exp1.licdn.com/dms/image/C4D03AQFVFuMXM17RQA/profile-displayphoto-shrink_200_200/0/1661115634710?e=1668643200&amp;v=beta&amp;t=oVGvzVbCU38zyc9EwQQE_8Wgd68dHaekDJmH8KrT5TY" height="200" alt="Felipe Damazio" id="ember5457" class="ember-view profile-photo-edit__preview">
   
 
  <sub><b>Felipe Damazio</b></sub></a> <a href="https://www.linkedin.com/in/felipe-damazio" target= "_blank" title="">🚀</a>
