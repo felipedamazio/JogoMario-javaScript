@@ -30,12 +30,29 @@ const jump = () => {
 
 }
 
-// loop de verificação para o descolocamento esquerdo do pipe no caso 120px que foi passado na classe pipe no css
+// loop de verificação para o descolocamento esquerdo do pipe no caso 120px  
 const loop = setInterval(() => {
 
-    const pipePosition = pipe.offsetLeft
-    // console.log(pipePosition)
-    // variavel para pegar a posição esquerda do pipe 
+    const pipePosition = pipe.offsetLeft;
+    const marioPosition = +window.getComputedStyle(mario).bottom.replace('px','');
+    //se o tubo chegou a 120px do mario e o seu bottom(jump) for menor que 80 o jogo faz a verificação que o mario esconstou no tubo e encerra o jogo!
+    if(pipePosition <= 120 && pipePosition > 0 &&marioPosition < 80  ){
+
+        pipe.style.animation = 'none';
+        pipe.style.left = `${pipePosition}px`;
+
+        mario.style.animation = 'none';
+        mario.style.bottom = `${marioPosition}px`;
+
+        // imagem do mario game over ao encerrar o jogo !!!
+        mario.src="img/game-over.png"
+        mario.style.width = '70px'
+        mario.style.marginLeft = '50px'
+
+        clearInterval(loop)
+       
+    }
+    
 
 }, 10);
 

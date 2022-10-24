@@ -13,22 +13,25 @@ body{
 /* definindo tamanho e bordar dos limites do game-board */
 .game-board {
     display: flex;
-    width: 80%;
-    height: 33em;
-    border: 1px solid #3bd723;;
-    margin: 4em auto;
+    width: 100%;
+    height: 46em;
+    border-bottom: 15px solid #208a10;
+    margin: 0em auto;
     position: relative;
     overflow: hidden;
-   
+    background: linear-gradient(#87ceeb,#e0f6ff);
 }
+   
+
 
 /* definindo posição e propriedades do pipe(Cano verde do mario)  */
 .pipe {
 
     position: absolute;
     bottom: 0;
-    width: 80px;
-    animation: pipe-animation 2s infinite linear; 
+    width: 6em;
+    height:5em;
+    animation: pipe-animation 3s infinite linear; 
     /* keyframe pipe animation - sai da posição 0 até a posição 100 em 2 segundos  */        
    
 }
@@ -38,7 +41,7 @@ body{
 .mario{
     width: 150px;
     position: absolute;
-    bottom: 0;   
+    bottom: 0px;   
 
 }
 
@@ -46,27 +49,37 @@ body{
 .cloud{
 
     position: absolute;    
-    width: 28em;
+    width: 36em;
     padding: 15px;
     animation: cloud-animation 10s infinite linear; 
 
 }
 
 .logoSuperMario{
-    width: 30em;
+    width: 33em;
+    height: 10em;
     margin-top: 15px;
+    
+    margin: 0 auto;
 }
+
 
 .instructions{
     width: 45em;
-    
+    margin-top: 17px;    
+}
+
+
+.keyboard{
+    width: 36em;
+    margin: 11px 43em 0 auto;
 }
 
 .Felp{
     
-    width: 17em;
-    margin-left: 9em;
-    margin-top: 5em;
+    width: 16em;
+    margin-left: -104em;
+    margin-top: 11em;
 }
 
 a{

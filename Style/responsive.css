@@ -2,55 +2,199 @@
 
 
     .game-board {
+
         display: flex;
-        width: 80%;
-        height: 20em;
-        border: 1px solid #3bd723;
-        margin: 4em auto;
+        width: 100%;
+        height: 35em;
+        border-bottom: 15px solid #208a10;
+        margin: 0em auto;
         position: relative;
         overflow: hidden;
+        background: linear-gradient(#87ceeb, #e0f6ff);
     }
 
     .pipe {
         position: absolute;
         bottom: 0;
-        width: 54px;
-        animation: pipe-animation 2s infinite linear;
+        width: 4em;
+        height: 4em;
+        animation: pipe-animation 3s infinite linear;
     }
 
     .mario {
-        width: 100px;
+        width: 120px;
         position: absolute;
         bottom: 0;
 
     }
 
     .logoSuperMario {
-        width: 20em;       
-        margin-top: 24px;
+        width: 23em;
+        height: 8em;
+        margin-top: 15px;
+
+        margin: 0 auto;
     }
 
     .cloud {
         position: absolute;
-        width: 14em;
-        padding: 15px;
+        width: 28em;
+        padding: 22px;
         animation: cloud-animation 10s infinite linear;
     }
 
     .instructions {
-        width: 30em;
-        
+        width: 35em;
+        margin-top: 17px;
     }
 
-    .Felp{
-    
-        width: 10em;
-        margin-left: 9em;
-        margin-top: 4em;
+    .keyboard {
+        width: 20em;
+        margin: 10px 34em 0 auto;
     }
-    
-    a{
+
+    .Felp {
+        width: 11em;
+        margin-left: -74em;
+        margin-top: 10em;
+    }
+
+    a {
         height: fit-content;
         width: 0;
     }
+}
+
+@media screen and (max-width: 896px) {
+
+    .game-board {
+
+        display: flex;
+        width: 100%;
+        height: 40em;
+        border-bottom: 15px solid #208a10;
+        margin: 0em auto;
+        position: relative;
+        overflow: hidden;
+        background: linear-gradient(#87ceeb, #e0f6ff);
+    }
+
+    .pipe {
+        position: absolute;
+        bottom: 0;
+        width: 4em;
+        height: 4em;
+        animation: pipe-animation 1s infinite linear;
+    }
+
+    .mario {
+        width: 120px;
+        position: absolute;
+        bottom: 0;
+
+    }
+
+    .logoSuperMario {
+        width: 23em;
+        height: 8em;
+        margin-top: 15px;
+
+        margin: 0 auto;
+    }
+
+    .cloud {
+        position: absolute;
+        width: 28em;
+        padding: 22px;
+        animation: cloud-animation 10s infinite linear;
+    }
+
+    .instructions {
+        width: 20em;
+        margin-top: 18px;
+    }
+
+    .keyboard {
+        width: 20em;
+        margin: 12px auto;
+    }
+
+    .Felp {
+        width: 8em;
+        margin-left: -24em;
+        margin-top: 12em;
+    }
+
+    a {
+        height: fit-content;
+        width: 0;
+    }
+
+
+}
+
+@media screen and (min-width: 896px) {
+
+    .game-board {
+
+        display: flex;
+        width: 100%;
+        height: 26em;
+        border-bottom: 15px solid #208a10;
+        margin: 0em auto;
+        position: relative;
+        overflow: hidden;
+        background: linear-gradient(#87ceeb, #e0f6ff);
+    }
+
+    .pipe {
+        position: absolute;
+        bottom: 0;
+        width: 4em;
+        height: 4em;
+        animation: pipe-animation 1s infinite linear;
+    }
+
+    .mario {
+        width: 120px;
+        position: absolute;
+        bottom: 0;
+
+    }
+
+    .logoSuperMario {
+        width: 23em;
+        height: 8em;
+        margin-top: 15px;
+
+        margin: 0 auto;
+    }
+
+    .cloud {
+        position: absolute;
+        width: 28em;
+        padding: 22px;
+        animation: cloud-animation 10s infinite linear;
+    }
+
+    .instructions {
+        display: none;
+    }
+
+    .keyboard {
+        display: none;
+    }
+
+    .Felp {
+        width: 7em;
+    margin-left: -47em;
+    margin-top: 10em;
+    }
+
+    a {
+        height: fit-content;
+        width: 0;
+    }
+
+
 }
