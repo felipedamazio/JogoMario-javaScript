@@ -1,7 +1,11 @@
 # Jogo do Mario com JavaScript
 
 
-https://user-images.githubusercontent.com/71530559/197377018-50a5ac0e-190a-48f9-a745-38ed989779e0.mp4
+
+
+https://user-images.githubusercontent.com/71530559/197446271-74b30648-5abe-4c11-9f2d-525cb0b1cadb.mp4
+
+
 
 
 # Descrição do Projeto
