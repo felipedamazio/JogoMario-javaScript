@@ -5,7 +5,7 @@
 
 https://user-images.githubusercontent.com/71530559/197446271-74b30648-5abe-4c11-9f2d-525cb0b1cadb.mp4
 
-<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/felipedamazio/JogoMario-javaScript?style=plastic">
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/felipedamazio/JogoMario-javaScript?style=plastic"> <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/felipedamazio/JogoMario-javaScript?style=plastic">
 
 ### LICENSES ✔
 
