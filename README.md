@@ -9,10 +9,7 @@ https://user-images.githubusercontent.com/71530559/197446271-74b30648-5abe-4c11-
 
 ### LICENSES ✔
 
-<img alt="GitHub" src="https://img.shields.io/github/license/felipedamazio/JogoMario-javaScript?style=flat-square">
-
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+<img alt="GitHub" src="https://img.shields.io/github/license/felipedamazio/JogoMario-javaScript?style=flat-square"> <img alt="GitHub deployments" src="https://img.shields.io/github/deployments/felipedamazio/JogoMario-javaScript/github-pages">
 
 
 
@@ -26,14 +23,20 @@ https://user-images.githubusercontent.com/71530559/197446271-74b30648-5abe-4c11-
 <a href="https://felipedamazio.github.io/JogoMario-javaScript/" target="_blank">Testar</a> 
 </h1>
 
-### 🛠 Tecnologias
+### 🛠 Languages and Tools
 As seguintes ferramentas foram usadas na construção do projeto:
 <br>
 <br>
+<img align="center" alt="Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+<img align="center" alt="CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
-   <img align="center" alt="Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
-    <img align="center" alt="Felp-Photoshop" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-plain.svg">
+ <img align="center" alt="Js" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" />
+    <img align="center" alt="Js" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" />        <img align="center" alt="Felp-Photoshop" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-plain.svg">
+    
+
+
+    
+    
 
 
 ### Autores
