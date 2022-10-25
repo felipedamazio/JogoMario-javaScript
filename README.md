@@ -5,6 +5,12 @@
 
 https://user-images.githubusercontent.com/71530559/197446271-74b30648-5abe-4c11-9f2d-525cb0b1cadb.mp4
 
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/felipedamazio/JogoMario-javaScript?style=plastic">
+
+### LICENSES ✔
+
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 
 
