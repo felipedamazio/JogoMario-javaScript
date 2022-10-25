@@ -49,7 +49,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
  
  
  <a href="https://www.linkedin.com/in/mateusalvesds/">
- <img width="200" style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/380327?s=460&u=61b426b901b8fe02e12019b1fdb67bf0072d4f00&v=4" width="100px;" alt="Mateus Alves"/>
+ <img width="200" style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/91573550?v=4">
   
   <sub><b>Felipe Damazio /</b></sub></a> <a href="https://www.linkedin.com/in/felipe-damazio" target= "_blank" title=""></a>
   <sub ><b >Mateus Alves</b></sub></a> <a href="https://www.linkedin.com/in/mateusalvesds/" target= "_blank" title=""></a>
