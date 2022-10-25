@@ -15,28 +15,30 @@
 </head>
 
 <body>
-    
     <!-- div principla onde o jogo roda -->
-    <div class="game-board">
+    <section class="game-board start">
+
+        <div class="legend">Start game - Press enter</div>
+        <div class="legend again hide">Play again - Press space</div>
 
         <img src="img/Super_Mario_World_game_logo.svg.png" class="logoSuperMario">
         <!-- gif do mario  -->
-        <img src="img/mario.gif" class="mario ">
+        <img src="img/mario.gif" class="mario">
         <!-- img do cano verde -->
-        <img src="img/pipe.png" class="pipe">
+        <img src="img/pipe.png" class="pipe hide">
 
-        <img src="img/clouds.png" class="cloud">
-        
+        <img src="img/clouds.png" class="cloud hide">
 
-        <a href="https://www.linkedin.com/in/felipe-damazio/" target="_blank"><img src="img/felpDeveloped.png" class="Felp"></a>
 
-        <script src="./JS/scripts.js"></script>
-    </div>
-    
+        <a href="https://www.linkedin.com/in/felipe-damazio/" target="_blank"><img src="img/felpDeveloped.png"
+                class="Felp"></a>
+    </section>
 
-    <img src="img/press.png" class="instructions">  
-    <img src="img/space-key-removebg-preview.png " class="keyboard">     
+    <div class="help-key">Press <span class="space">space</span> to jump</div>
 
+    <!-- <img src="img/press.png" class="instructions"> -->
+    <!-- <img src="img/space-key-removebg-preview.png " class="keyboard"> -->
+    <script src="./JS/scripts.js"></script>
 </body>
 
 </html>
