@@ -44,7 +44,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
  
 <a href="https://www.linkedin.com/in/felipe-damazio/">
- <img width="200" border-radius="25px" src="https://media-exp1.licdn.com/dms/image/C4D03AQFVFuMXM17RQA/profile-displayphoto-shrink_200_200/0/1661115634710?e=1668643200&amp;v=beta&amp;t=oVGvzVbCU38zyc9EwQQE_8Wgd68dHaekDJmH8KrT5TY" height="200" alt="Felipe Damazio" id="ember5457" class="ember-view profile-photo-edit__preview"> 
+<img width="200" style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/71530559?v=4"> 
  
  
  
