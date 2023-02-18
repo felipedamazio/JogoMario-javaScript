@@ -11,20 +11,40 @@ const gameBoard = document.querySelector(".game-board");
 const logo = document.querySelector(".logoSuperMario");
 const legend = document.querySelector(".legend");
 const again = document.querySelector(".again");
+const felp = document.querySelector(".felp");
+const startMobile = document.querySelector(".start-mobile");
+const restartMobile = document.querySelector(".restart-mobile");
 
 pipe.style.animationPlayState = "paused";
 mario.style.animationPlayState = "paused";
 cloud.style.animationPlayState = "paused";
 
+// evento de keydown no teclado para iniciar game ----------------
 document.addEventListener("keydown", (e) => {
   console.log(e);
   if (e.key == "Enter" && gameBoard.classList.contains("start")) {
     startGame();
   }
 });
+// evento de click para iniciar game via toque na tela----------------------
+startMobile.addEventListener("click", (e) => {
+  console.log(e);
+  if (e.pointerType == "touch" && gameBoard.classList.contains("start")) {
+    startGame();
+  }
+});
+
+// evento de keydown no teclado para reiniciar game ---------------------
 
 document.addEventListener("keydown", (e) => {
   if (e.code == "Space" && !again.classList.contains("hide")) {
+    document.location.reload(true);
+  }
+});
+// evento de click para reiniciar game via toque na tela----------------------
+restartMobile.addEventListener("click", (e) => {
+  console.log(e);
+  if (e.pointerType == "touch" && !again.classList.contains("hide")) {
     document.location.reload(true);
   }
 });
@@ -39,13 +59,13 @@ const startGame = function () {
   mario.style.animationPlayState = "running";
   cloud.style.animationPlayState = "running";
 
-  [legend, logo].forEach((elem) => {
+  [legend, logo, felp].forEach((elem) => {
     elem.classList.add("hide");
   });
 };
 
 const gameOver = function () {
-  [again, logo].forEach((elem) => {
+  [again, logo, felp].forEach((elem) => {
     elem.classList.remove("hide");
   });
 };
@@ -78,7 +98,7 @@ const loop = setInterval(() => {
 
     // imagem do mario game over ao encerrar o jogo !!!
     mario.src = "img/game-over.png";
-    mario.style.width = "70px";
+    mario.style.width = "60px";
     mario.style.marginLeft = "50px";
 
     gameOver();

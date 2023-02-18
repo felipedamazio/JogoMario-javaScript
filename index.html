@@ -1,44 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style/style.css">
-    <link rel="stylesheet" href="Style/animations.css">
-    <link rel="stylesheet" href="Style/responsive.css">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style/style.css" />
+    <link rel="stylesheet" href="Style/animations.css" />
+    <link rel="stylesheet" href="Style/responsive.css" />
 
     <title>Super Mario World</title>
-    <link rel="shortcut icon" href="img/mario.gif">
-</head>
+    <link rel="shortcut icon" href="img/mario.gif" />
+  </head>
 
-<body>
+  <body>
     <!-- div principla onde o jogo roda -->
     <section class="game-board start">
+      <div class="legend">Start game - Press enter</div>
+      <div class="legend again hide">Play again - Press space</div>
 
-        <div class="legend">Start game - Press enter</div>
-        <div class="legend again hide">Play again - Press space</div>
+      <img src="img/Super_Mario_World_game_logo.svg.png"class="logoSuperMario"/>
+      <!-- gif do mario  -->
+      <img src="img/mario.gif" class="mario" />
+      <!-- img do cano verde -->
+      <img src="img/pipe.png" class="pipe hide" />
 
-        <img src="img/Super_Mario_World_game_logo.svg.png" class="logoSuperMario">
-        <!-- gif do mario  -->
-        <img src="img/mario.gif" class="mario">
-        <!-- img do cano verde -->
-        <img src="img/pipe.png" class="pipe hide">
+      <img src="img/clouds.png" class="cloud hide" />
 
-        <img src="img/clouds.png" class="cloud hide">
+      <a href="https://www.linkedin.com/in/felipe-damazio/" target="_blank"><img src="img/felpDeveloped.png" class="felp"/></a>
 
-
-        <a href="https://www.linkedin.com/in/felipe-damazio/" target="_blank"><img src="img/felpDeveloped.png"
-                class="Felp"></a>
     </section>
 
-    <div class="help-key">Press <span class="space">space</span> to jump</div>
+    <div class="buttons">
+        <button class="start-mobile">PLAY</button>
+        <button class="restart-mobile">RESTART</button>
 
-    <!-- <img src="img/press.png" class="instructions"> -->
-    <!-- <img src="img/space-key-removebg-preview.png " class="keyboard"> -->
+    </div>
+    <div class="dica-mobile">
+      <div class="instructions-mobile">
+        <span class="touch">Touch </span> to jump
+      </div>
+      <img src="img/touch.gif" class="touch-gif"/>
+    </div>
+
+    <div class="dicas">
+      <img src="img/press.png" class="instructions" />
+      <img src="img/space-key-removebg-preview.png " class="keyboard" />
+    </div>
+
+    
+
     <script src="./JS/scripts.js"></script>
-</body>
-
+  </body>
 </html>
