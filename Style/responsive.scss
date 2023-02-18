@@ -9,6 +9,7 @@
     overflow: hidden;
     background: linear-gradient(#87ceeb, #e0f6ff);
   }
+
   .pipe {
     position: absolute;
     bottom: 0;
@@ -16,48 +17,62 @@
     height: 4em;
     animation: pipe-animation 3s infinite linear;
   }
+
   .mario {
     width: 120px;
     position: absolute;
     bottom: 0;
   }
+
   .logoSuperMario {
     width: 23em;
     height: 8em;
     margin-top: 15px;
+
     margin: 0 auto;
   }
+
   .cloud {
     position: absolute;
     width: 28em;
     padding: 22px;
     animation: cloud-animation 10s infinite linear;
   }
+
   .instructions {
     width: 30em;
+
   }
+
   .keyboard {
     width: 20em;
+
   }
+
   .dica-mobile {
     display: none;
   }
+
+
   .felp {
     width: 16em;
     position: absolute;
     right: 1em;
   }
+
   a {
-    height: -moz-fit-content;
     height: fit-content;
     width: 0;
   }
 }
+
 @media screen and (max-width: 896px) {
   body {
     width: 100vw;
     height: 100vh;
   }
+
+
   .game-board {
     display: flex;
     width: 100%;
@@ -68,6 +83,7 @@
     overflow: hidden;
     background: linear-gradient(#87ceeb, #e0f6ff);
   }
+
   .pipe {
     position: absolute;
     bottom: 0;
@@ -75,26 +91,33 @@
     height: 4em;
     animation: pipe-animation 1s infinite linear;
   }
+
   .mario {
     width: 7em;
     position: absolute;
     bottom: 0px;
   }
+
+
   .logoSuperMario {
     width: 23em;
     height: 8em;
     margin-top: 15px;
+
     margin: 0 auto;
   }
+
   .cloud {
     position: absolute;
     width: 28em;
     padding: 22px;
     animation: cloud-animation 10s infinite linear;
   }
+
   .dicas {
     display: none;
   }
+
   .buttons {
     display: flex;
     display: flex;
@@ -103,45 +126,53 @@
     justify-content: space-evenly;
     position: relative;
     top: 1em;
+
+    .start-mobile,
+    .restart-mobile {
+      background-color: #87ceeb;
+      padding: 9px;
+      border-radius: 10px;
+    }
   }
-  .buttons .start-mobile,
-  .buttons .restart-mobile {
-    background-color: #87ceeb;
-    padding: 9px;
-    border-radius: 10px;
-  }
+
   .dica-mobile {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    .instructions-mobile {
+      padding: 2em;
+      font-size: 31px;
+
+      span {
+        font-weight: bold;
+        font-size: 31px;
+        background-color: #208a10;
+        border-radius: 10px;
+        padding: 2px;
+      }
+    }
+
+    .touch-gif {
+      position: relative;
+      top: -2em;
+    }
   }
-  .dica-mobile .instructions-mobile {
-    padding: 2em;
-    font-size: 31px;
-  }
-  .dica-mobile .instructions-mobile span {
-    font-weight: bold;
-    font-size: 31px;
-    background-color: #208a10;
-    border-radius: 10px;
-    padding: 2px;
-  }
-  .dica-mobile .touch-gif {
-    position: relative;
-    top: -2em;
-  }
+
+
   .felp {
     width: 8em;
     position: absolute;
     right: 1em;
     top: 10em;
   }
+
   a {
-    height: -moz-fit-content;
     height: fit-content;
     width: 0;
   }
 }
+
 /* @media screen and (min-width: 896px) {
 
     .game-board {
@@ -206,4 +237,4 @@
     }
 
 
-} *//*# sourceMappingURL=responsive.css.map */
+} */

@@ -1,9 +1,9 @@
-@charset "UTF-8";
 /* animando o pipe sai da posição 0 até a posição 100 */
 @keyframes pipe-animation {
   from {
     right: -80px;
   }
+
   to {
     right: 100%;
   }
@@ -13,6 +13,7 @@
   from {
     right: -80px;
   }
+
   to {
     right: 100%;
   }
@@ -25,19 +26,24 @@
   0% {
     bottom: 0;
   }
+
   40% {
     bottom: 200px;
   }
+
   50% {
     bottom: 200px;
   }
+
   60% {
     bottom: 200px;
   }
+
   100% {
     bottom: 0;
   }
 }
+
 @keyframes text {
   0% {
     opacity: 1;
@@ -61,7 +67,8 @@
     opacity: 0.8;
   }
 }
+
 /* animação que start do pulo do mario*/
 .jump-mario {
   animation: jump 700ms ease-out;
-}/*# sourceMappingURL=animations.css.map */
+}
