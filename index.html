@@ -15,10 +15,17 @@
   <body>
     <!-- div principla onde o jogo roda -->
     <section class="game-board start">
+       <!-- PC -->
       <div class="legend">Start game - Press enter</div>
       <div class="legend again hide">Play again - Press space</div>
+      <!-- MOBILE -->
+      <div class="legend-start-mobile">Start game - Press Play</div>      
+      <div class="legend-restart-mobile hide">Play Again - Press Restart</div>
 
-      <img src="img/Super_Mario_World_game_logo.svg.png"class="logoSuperMario"/>
+      <img
+        src="img/Super_Mario_World_game_logo.svg.png"
+        class="logoSuperMario"
+      />
       <!-- gif do mario  -->
       <img src="img/mario.gif" class="mario" />
       <!-- img do cano verde -->
@@ -26,28 +33,27 @@
 
       <img src="img/clouds.png" class="cloud hide" />
 
-      <a href="https://www.linkedin.com/in/felipe-damazio/" target="_blank"><img src="img/felpDeveloped.png" class="felp"/></a>
-
+      <a href="https://www.linkedin.com/in/felipe-damazio/" target="_blank"
+        ><img src="img/felpDeveloped.png" class="felp"
+      /></a>
     </section>
 
     <div class="buttons">
-        <button class="start-mobile">PLAY</button>
-        <button class="restart-mobile">RESTART</button>
-
+      <button class="start-mobile">PLAY</button>
+      <button class="restart-mobile hide">RESTART</button>
     </div>
+
     <div class="dica-mobile">
       <div class="instructions-mobile">
         <span class="touch">Touch </span> to jump
       </div>
-      <img src="img/touch.gif" class="touch-gif"/>
+      <img src="img/touch.gif" class="touch-gif" />
     </div>
 
     <div class="dicas">
       <img src="img/press.png" class="instructions" />
       <img src="img/space-key-removebg-preview.png " class="keyboard" />
     </div>
-
-    
 
     <script src="./JS/scripts.js"></script>
   </body>

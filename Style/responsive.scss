@@ -120,33 +120,39 @@
 
   .buttons {
     display: flex;
-    display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: space-evenly;
     position: relative;
-    top: 1em;
+    top: 3em;
+
 
     .start-mobile,
     .restart-mobile {
+      height: 3em;
       background-color: #87ceeb;
-      padding: 9px;
       border-radius: 10px;
+      width: 10em;
+      position: relative;
+      bottom: 2em;
     }
   }
 
   .dica-mobile {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    position: relative;
+    top: 4em;
 
     .instructions-mobile {
-      padding: 2em;
-      font-size: 31px;
+
+      font-size: 20px;
 
       span {
         font-weight: bold;
-        font-size: 31px;
+        font-size: 20px;
         background-color: #208a10;
         border-radius: 10px;
         padding: 2px;
@@ -154,11 +160,34 @@
     }
 
     .touch-gif {
-      position: relative;
-      top: -2em;
+      width: 5em;
     }
   }
 
+  .prepare-se,
+  .legend-restart-mobile,
+  .legend-start-mobile {
+    margin-top: 40px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: fit-content;
+    color: #333;
+    height: 100px;
+    margin: auto;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    animation: text 2s infinite linear;
+  }
+
+
+
+
+  .legend {
+    display: none
+  }
 
   .felp {
     width: 8em;

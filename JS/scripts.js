@@ -14,6 +14,9 @@ const again = document.querySelector(".again");
 const felp = document.querySelector(".felp");
 const startMobile = document.querySelector(".start-mobile");
 const restartMobile = document.querySelector(".restart-mobile");
+const prepareSe = document.querySelector(".prepare-se");
+const legendRestart = document.querySelector(".legend-restart-mobile");
+const legendStartMobile = document.querySelector(".legend-start-mobile");
 
 pipe.style.animationPlayState = "paused";
 mario.style.animationPlayState = "paused";
@@ -30,7 +33,10 @@ document.addEventListener("keydown", (e) => {
 startMobile.addEventListener("click", (e) => {
   console.log(e);
   if (e.pointerType == "touch" && gameBoard.classList.contains("start")) {
-    startGame();
+   legendStartMobile.innerHTML = '3,2,1... Já' 
+    setTimeout(() => {
+      startGame();           
+    }, 3000);
   }
 });
 
@@ -44,14 +50,15 @@ document.addEventListener("keydown", (e) => {
 // evento de click para reiniciar game via toque na tela----------------------
 restartMobile.addEventListener("click", (e) => {
   console.log(e);
-  if (e.pointerType == "touch" && !again.classList.contains("hide")) {
+  if (e.pointerType == "touch" && !again.classList.contains("hide")) {   
     document.location.reload(true);
+    // legendRestart.innerHTML = 'Play again - Press Restart'
   }
 });
 
 const startGame = function () {
   gameBoard.classList.remove("start");
-  [mario, pipe, cloud].forEach((el) => {
+  [mario, pipe, cloud,startMobile].forEach((el) => {
     el.classList.remove("hide");
   });
 
@@ -59,13 +66,13 @@ const startGame = function () {
   mario.style.animationPlayState = "running";
   cloud.style.animationPlayState = "running";
 
-  [legend, logo, felp].forEach((elem) => {
+  [legend, logo, felp,startMobile,legendStartMobile].forEach((elem) => {
     elem.classList.add("hide");
   });
 };
 
 const gameOver = function () {
-  [again, logo, felp].forEach((elem) => {
+  [again, logo, felp,restartMobile,legendRestart].forEach((elem) => {
     elem.classList.remove("hide");
   });
 };
