@@ -100,16 +100,21 @@ a {
   position: fixed;
   top: 0;
   bottom: 0;
-  left: 0;
+  left: 0.5em;
   right: 0;
   width: -moz-fit-content;
   width: fit-content;
-  color: #333;
+  color: #00c900;
   height: 100px;
   margin: auto;
-  font-size: 1.5em;
+  font-size: 2.5em;
   text-transform: uppercase;
   animation: text 2s infinite linear;
+  font-family: "Press Start 2P", cursive;
+}
+
+.buttons {
+  display: none;
 }
 
 .hide {

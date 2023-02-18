@@ -33,7 +33,7 @@ document.addEventListener("keydown", (e) => {
 startMobile.addEventListener("click", (e) => {
   console.log(e);
   if (e.pointerType == "touch" && gameBoard.classList.contains("start")) {
-   legendStartMobile.innerHTML = '3,2,1... Já' 
+   legendStartMobile.innerHTML = '3,2,1 Já' 
     setTimeout(() => {
       startGame();           
     }, 3000);
