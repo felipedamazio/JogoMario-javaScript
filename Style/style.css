@@ -79,9 +79,10 @@ body {
 }
 
 .felp {
-  width: 16em;
+  width: 10em;
   position: absolute;
   right: 1em;
+  top: 1em;
 }
 
 a {

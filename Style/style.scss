@@ -19,7 +19,7 @@ body {
   display: flex;
   width: 100vw;
   height: 65vh;
-  border-bottom: 15px solid #208a10;  
+  border-bottom: 15px solid #208a10;
   position: relative;
   overflow: hidden;
   background: linear-gradient(#87ceeb, #e0f6ff);
@@ -80,9 +80,10 @@ body {
 }
 
 .felp {
-  width: 16em;
+  width: 10em;
   position: absolute;
   right: 1em;
+  top: 1em;
 }
 
 a {
@@ -96,21 +97,20 @@ a {
 
 .legend {
   margin-top: 40px;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0.5em;
-    right: 0;
-    width: fit-content;
-    color: #00c900;
-    height: 100px;
-    margin: auto;
-    font-size: 2.5em;
-    text-transform: uppercase;
-    animation: text 2s infinite linear;
-    font-family: 'Press Start 2P', cursive;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0.5em;
+  right: 0;
+  width: fit-content;
+  color: #00c900;
+  height: 100px;
+  margin: auto;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  animation: text 2s infinite linear;
+  font-family: 'Press Start 2P', cursive;
 }
-
 
 
 .buttons {

@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bangers&family=Press+Start+2P&display=swap");
-@media screen and (max-width: 1366px) {
+@media screen and (min-width: 1200px) {
+  .legend-restart-mobile,
+  .legend-start-mobile {
+    display: none;
+  }
+}
+@media (min-width: 897px) and (max-width: 1024px) {
   body {
     width: 100vw;
     height: 100vh;
@@ -200,7 +206,7 @@
     margin-top: 40px;
     position: fixed;
     top: 0;
-    bottom: 0;
+    bottom: 2em;
     left: 0.5em;
     right: 0;
     width: -moz-fit-content;
@@ -227,69 +233,4 @@
     height: fit-content;
     width: 0;
   }
-}
-/* @media screen and (min-width: 896px) {
-
-    .game-board {
-
-        display: flex;
-        width: 100%;
-        height: 26em;
-        border-bottom: 15px solid #208a10;
-        margin: 0em auto;
-        position: relative;
-        overflow: hidden;
-        background: linear-gradient(#87ceeb, #e0f6ff);
-    }
-
-    .pipe {
-        position: absolute;
-        bottom: 0;
-        width: 4em;
-        height: 4em;
-        animation: pipe-animation 1s infinite linear;
-    }
-
-    .mario {
-        width: 120px;
-        position: absolute;
-        bottom: 0;
-
-    }
-
-    .logoSuperMario {
-        width: 23em;
-        height: 8em;
-        margin-top: 15px;
-
-        margin: 0 auto;
-    }
-
-    .cloud {
-        position: absolute;
-        width: 28em;
-        padding: 22px;
-        animation: cloud-animation 10s infinite linear;
-    }
-
-    .instructions {
-        display: none;
-    }
-
-    .keyboard {
-        display: none;
-    }
-
-    .Felp {
-    width: 7em;
-    margin-left: -47em;
-    margin-top: 10em;
-    }
-
-    a {
-        height: fit-content;
-        width: 0;
-    }
-
-
-} *//*# sourceMappingURL=responsive.css.map */
+}/*# sourceMappingURL=responsive.css.map */
