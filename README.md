@@ -17,10 +17,11 @@ https://user-images.githubusercontent.com/71530559/197446271-74b30648-5abe-4c11-
 # Descrição do Projeto
 <p align="center">Jogo do Mario com JavaScript / projeto Baseado em outros projetos Open Source</p>
 <p align="center">PROJETO EM ANDAMENTO - AGUARDANDO MELHORIAS E ATUALIZAÇÕES </p>
-<img alt="GitHub" src="https://img.shields.io/github/last-commit/felipedamazio/JogoMario-javaScript?style=for-the-badge">
+
 <h1 align="center">
-<!-- <h1> -->
-<a href="https://felipedamazio.github.io/JogoMario-javaScript/" target="_blank">Testar</a> 
+ <img alt="GitHub" src="https://img.shields.io/github/last-commit/felipedamazio/JogoMario-javaScript?style=for-the-badge">
+
+<a href="https://felipedamazio.github.io/JogoMario-javaScript/" target="_blank">DEPLOY</a> 
 </h1>
 
 ### 🛠 Languages and Tools
