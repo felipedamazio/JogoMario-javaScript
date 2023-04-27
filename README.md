@@ -45,8 +45,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
  
 <a href="https://www.linkedin.com/in/felipe-damazio/">
-<img width="200" style="border-radius: 50%;" src="https://media.licdn.com/dms/image/C4D03AQFVFuMXM17RQA/profile-displayphoto-shrink_800_800/0/1661115634710?e=1682553600&v=beta&t=IfxNGSRzc9S2y2ul6tUO6m0jIkfGssOZOV3bdfjxl4U"> 
- 
+<img width="200" style="border-radius: 50%;" src="https://media.licdn.com/dms/image/C4D03AQFVFuMXM17RQA/profile-displayphoto-shrink_800_800/0/1661115634710?e=1687996800&v=beta&t=Q1cPYF8mTVFYBvfboQmrl_Kzp2XvN-KmqY-2_4bleRM">  
  
  
  <a href="https://www.linkedin.com/in/mateusalvesds/">
