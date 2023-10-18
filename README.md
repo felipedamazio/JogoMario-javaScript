@@ -21,7 +21,7 @@ https://user-images.githubusercontent.com/71530559/197446271-74b30648-5abe-4c11-
 <h1 align="center">
  <img alt="GitHub" src="https://img.shields.io/github/last-commit/felipedamazio/JogoMario-javaScript?style=for-the-badge">
 
-<a href="https://felipedamazio.github.io/JogoMario-javaScript/" target="_blank">DEPLOY</a> 
+ [![Deploy with Vercel](https://vercel.com/button)](https://felipedamazio.github.io/JogoMario-javaScript/)
 </h1>
 
 ### 🛠 Languages and Tools
