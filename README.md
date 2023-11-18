@@ -10,7 +10,7 @@ https://user-images.githubusercontent.com/71530559/197446271-74b30648-5abe-4c11-
 
 ### LICENSES ✔
 
-<img alt="GitHub" src="https://img.shields.io/github/license/felipedamazio/JogoMario-javaScript?style=flat-square"> <img alt="GitHub deployments" src="https://img.shields.io/github/deployments/felipedamazio/JogoMario-javaScript/github-pages">
+<img alt="GitHub" src="https://img.shields.io/github/license/felipedamazio/JogoMario-javaScript?style=flat-square"> 
 
 
 
@@ -19,9 +19,14 @@ https://user-images.githubusercontent.com/71530559/197446271-74b30648-5abe-4c11-
 <p align="center">PROJETO EM ANDAMENTO - AGUARDANDO MELHORIAS E ATUALIZAÇÕES </p>
 
 <div align="center">
- <img alt="GitHub" src="https://img.shields.io/github/last-commit/felipedamazio/JogoMario-javaScript?style=for-the-badge">
-
- [![Deploy with Vercel](https://vercel.com/button)](https://felipedamazio.github.io/JogoMario-javaScript/)
+ <img alt="GitHub deployments" src="https://img.shields.io/github/deployments/felipedamazio/JogoMario-javaScript/github-pages">
+ <br>
+ <img alt="GitHub" src="https://img.shields.io/github/last-commit/felipedamazio/JogoMario-javaScript?style=for-the-badge"> 
+ <br>
+ <br>
+ 
+ [![Deploy with Vercel](https://vercel.com/button)](https://felipedamazio.github.io/JogoMario-javaScript/) 
+ 
 </div>
 
 ### 🛠 Languages and Tools
