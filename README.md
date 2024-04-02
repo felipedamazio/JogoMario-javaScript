@@ -45,31 +45,19 @@ As seguintes ferramentas foram usadas na construção do projeto:
     
 
 
-### Autores
+### Autor
 ---
 
- 
 <a href="https://www.linkedin.com/in/felipe-damazio/">
-<img width="200" style="border-radius: 50%;" src="https://media.licdn.com/dms/image/C4D03AQFVFuMXM17RQA/profile-displayphoto-shrink_800_800/0/1661115635906?e=1704931200&v=beta&t=W3bIvF5zZeZb9HMziuCqGMJ_HuF2qXDgf-sREV8VIsQ">  
+<img width="200" style="border-radius: 50%;" src="https://media.licdn.com/dms/image/D4D03AQEGbvDY5m-KrQ/profile-displayphoto-shrink_800_800/0/1710867005445?e=1717027200&v=beta&t=nWqsHp4WncDPxNYsxrRgKn5KmBPKUJRp9Oetw2y8wNo">  
+ </a>
  
- 
- <a href="https://www.linkedin.com/in/mateusalvesds/">
- <img width="200" style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/91573550?v=4">
-  
-  <sub><b>Felipe Damazio /</b></sub></a> <a href="https://www.linkedin.com/in/felipe-damazio/" target= "_blank" title=""></a>
-  <sub ><b >Mateus Alves</b></sub></a> <a href="https://www.linkedin.com/in/mateusalvesds/" target= "_blank" title=""></a>
-  
- 
- 
- 
-  
-  
-
-
-Feito com ❤️ por Felipe Damazio 👋🏽 Entre em contato!
+Developed by Felp 🚀
 
 [![Linkedin Badge](https://img.shields.io/badge/-Felipe-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/felipe-damazio/)](https://www.linkedin.com/in/felipe-damazio/) 
 [![Gmail Badge](https://img.shields.io/badge/-lipjb@hotmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:lipjb@hotmail.com)](mailto:lipjb@hotmail.com)
+
+
 
 
 
